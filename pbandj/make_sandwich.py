@@ -31,18 +31,6 @@ knife = Knife()
 
 # once your bread is ready, you can use assemble(slice_1, slice_2) to put the slices together.
 
-
-
-
-# instructions
-
-# create your instructions here
-
-
-
-
-
-
 # replace with the assembled sandwich
 sandwich = None
 # sandwich = assemble(slice_1, slice_2)

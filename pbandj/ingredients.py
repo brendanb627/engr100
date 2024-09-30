@@ -31,7 +31,7 @@ class BreadBag(Container):
         super().__init__("Bread Bag")
         self.contains = [Bread() for x in range(10)]
     def take_out(self, num):
-        if self.open == False:
+        if self.opened == False:
             raise SandwichException("Can't take bread from closed bag!")
         if len(self.contains) - num < 0:
             raise SandwichException(f"Bread bag only has {len(self.contains)} slices. Can't take out {num}")
