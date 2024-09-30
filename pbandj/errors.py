@@ -1,0 +1,2 @@
+class SandwichException(Exception):
+    pass
